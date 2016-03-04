@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50">
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+        />
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Volunteer registration form-Be a Swachh Nagrik"
+        android:id="@+id/textView"
+        android:background="#dbdbdb"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name"
+        android:id="@+id/textView4" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/editText"
+        android:background="#C8E6C9"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Mobile No."
+        android:id="@+id/textView5" />
+
+    <EditText
+        android:background="#C8E6C9"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText2" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Email Id"
+        android:id="@+id/textView6" />
+
+    <EditText
+        android:background="#C8E6C9"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText3" />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="City"
+        android:id="@+id/textView7" />
+
+    <EditText
+        android:background="#C8E6C9"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText4" />
+    <Button
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
+</LinearLayout>

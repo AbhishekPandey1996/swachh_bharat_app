@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view_hof1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    card_view:cardBackgroundColor="#4099ff"
+    card_view:cardCornerRadius="4dp"
+    android:clickable="true"
+    >
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_margin="5dp" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="5dp">
+
+        <example.abhishek.com.materialdesign.fragments.RoundedImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/testi_img"
+            android:src="@drawable/ic_no_pic"
+
+            android:scaleType="fitCenter"
+            android:layout_margin="3dp"
+            android:layout_centerVertical="true" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_toRightOf="@id/testi_img">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/tvTestDesc"
+                android:paddingLeft="5dp"
+                android:textStyle="italic"
+                android:layout_marginLeft="5dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvTestDesc"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/tvTestiCeleb"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:textColor="#1B5E20"
+                    android:textStyle="bold"
+                    android:layout_marginRight="5dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Small Text"
+                    android:id="@+id/tvTestiCelebDesg"
+                    android:layout_below="@+id/tvTestiCeleb"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="5dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout></android.support.v7.widget.CardView >

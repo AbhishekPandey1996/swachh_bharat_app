@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    >
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6C9">
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+        />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:src="@drawable/launch"/>
+
+    <TextView
+        android:padding="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:text="Swachh Bharat Abhiyan (Hindi: स्वच्छ भारत अभियान, English: Clean India Mission and abbreviated as SBA or SBM for Swachh Bharat Mission) is a national campaign by the Government of India, covering 4,041 statutory cities and towns, to clean the streets, roads and infrastructure of the country. \n\n \tThe campaign was officially launched on 2 October 2014 at Rajghat, New Delhi, where Prime Minister Narendra Modi himself cleaned the road. It was performed in remembrance of Mahatma Gandhi's words. It is India's biggest ever cleanliness drive and 3 million government employees and school and college students of India participated in this event.\n\nThe program plans to construct 12 crore toilets in rural India by October 2019, at a projected cost of ₹1.96 lakh crore.\nAs of May 2015, 14 companies including Tata Consulting Services, Mahindra Group and Rotary International have pledged to construct 3,195 new toilets. As of the same month, 71 Public Sector Undertakings in India supported the construction of 86,781 new toilets. Between April 2014 and January 2015, 31.83 lakh toilets were built. Karnataka led all States in construction of toilets under the programme, while Punjab built the least. As of August 2015, 80 lakh toilets have been constructed under the program."
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
+</ScrollView>

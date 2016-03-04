@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8E6C9">
+    <include
+        android:elevation="10dp"
+        android:id="@+id/tool_bar"
+        layout="@layout/app_bar">
+    </include>
+
+
+
+    <EditText
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:layout_margin="20dp"
+        android:hint="Drop Your Suggestions / Feedback Here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etsuggestion"
+        android:lines="4"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:background="#4CAF50"
+        android:elevation="10dp"
+        android:id="@+id/bsendsuggestion"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white" />
+</LinearLayout>
